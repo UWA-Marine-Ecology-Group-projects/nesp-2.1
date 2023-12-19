@@ -164,6 +164,16 @@ samp$DropC <- 1:nrow(samp)
 ## Write out sampling file 
 write.csv(samp,"data/mbh-design/National_Sampling_Master.csv") # write out the each region
 
+test <- read.csv("data/mbh-design/National_Sampling_Master.csv") %>%
+  glimpse()
+deep <- test %>%
+  dplyr::filter(inclusion.probabilities == 0.3744583)
+shallow <- test %>%
+  dplyr::filter(inclusion.probabilities == 1.0000000)
+
+nrow(shallow)/200000
+nrow(deep)/200000
+
 ## now we have sampling design. worth checking in arcmap or similar that you have enough sampling density to be useful for each AMP that we intend to visit
 
 # samp <- quasiSamp.raster(n = n, 
