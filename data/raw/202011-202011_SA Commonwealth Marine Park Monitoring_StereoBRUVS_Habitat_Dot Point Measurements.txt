@@ -1,0 +1,306 @@
+Dot Point Measurements
+
+Generated: Tuesday 01 August 2023 14:45:22
+
+Filename	Frame	Time (mins)	Image row	Image col	Date	Location	Site #	Transect #	Latitude	Longitude	Rugosity	Depth	Collector	Fishing status	Spare	Spare	BROAD	MORPHOLOGY	TYPE	RELIEF	CODE				Radius %
+NC01_2011.jpg	      0		588	659													Open Water								40.4
+NC01_2011.jpg	      0		729	1864													Open Water								92.0
+NC01_2011.jpg	      0		604	835													Open Water								24.2
+NC01_2011.jpg	      0		599	1853													Open Water								92.5
+NC01_2011.jpg	      0		592	1842													Open Water								91.4
+NC01_2011.jpg	      0		795	1013													Unconsolidated	Sand	mud (fine sand)		82001015				3.5
+NC01_2011.jpg	      0		796	262													Unconsolidated	Sand	mud (fine sand)		82001015				78.0
+NC01_2011.jpg	      0		986	939													Unconsolidated	Sand	mud (fine sand)		82001015				24.2
+NC01_2011.jpg	      0		587	1277													Unknown								35.2
+NC01_2011.jpg	      0		644	61													Open Water								100.0
+NC01_2011.jpg	      0		745	721													Open Water								29.3
+NC01_2011.jpg	      0		997	953													Bryozoa				20000000				24.9
+NC01_2011.jpg	      0		862	1650													Unknown								70.0
+NC01_2011.jpg	      0		1046	1141													Unconsolidated	Sand	mud (fine sand)		82001015				33.4
+NC01_2011.jpg	      0		1042	915													Bryozoa				20000000				30.5
+NC01_2011.jpg	      0		690	930													Open Water								10.7
+NC01_2011.jpg	      0		755	806													Unconsolidated	Sand	mud (fine sand)		82001015				20.2
+NC01_2011.jpg	      0		754	1537													Unknown								57.3
+NC01_2011.jpg	      0		834	387													Unconsolidated	Sand	mud (fine sand)		82001015				65.0
+NC01_2011.jpg	      0		670	289													Open Water								75.7
+NC02_2011.jpg	      0		901	540													Bryozoa				20000000				40.8
+NC02_2011.jpg	      0		712	147													Open Water								81.8
+NC02_2011.jpg	      0		917	302													Bryozoa				20000000				66.1
+NC02_2011.jpg	      0		980	160													Unconsolidated	Sand	mud (fine sand)		82001015				82.5
+NC02_2011.jpg	      0		737	1287													Open Water								41.6
+NC02_2011.jpg	      0		834	1320													Bryozoa				20000000				45.0
+NC02_2011.jpg	      0		1003	1607													Bryozoa				20000000				78.9
+NC02_2011.jpg	      0		586	161													Open Water								82.9
+NC02_2011.jpg	      0		885	1830													Unknown								100.0
+NC02_2011.jpg	      0		603	752													Open Water								26.1
+NC02_2011.jpg	      0		796	549													Unconsolidated	Sand	mud (fine sand)		82001015				38.1
+NC02_2011.jpg	      0		692	198													Open Water								76.7
+NC02_2011.jpg	      0		788	202													Bryozoa				20000000				75.4
+NC02_2011.jpg	      0		807	1274													Bryozoa				20000000				39.9
+NC02_2011.jpg	      0		610	703													Open Water								29.2
+NC02_2011.jpg	      0		610	1549													Open Water								72.1
+NC02_2011.jpg	      0		697	1531													Open Water								68.2
+NC02_2011.jpg	      0		1048	1150													Unconsolidated	Sand	mud (fine sand)		82001015				38.1
+NC02_2011.jpg	      0		975	1321													Unconsolidated	Sand	mud (fine sand)		82001015				49.0
+NC02_2011.jpg	      0		669	1493													Open Water								64.7
+NC03_2011.jpg	      0		737	746													Open Water								16.2
+NC03_2011.jpg	      0		735	966													Unknown								11.6
+NC03_2011.jpg	      0		950	26													Unconsolidated	Sand	mud (fine sand)		82001015				85.8
+NC03_2011.jpg	      0		854	1432													Unknown								53.8
+NC03_2011.jpg	      0		602	1322													Open Water								48.1
+NC03_2011.jpg	      0		890	618													Unconsolidated	Sand	mud (fine sand)		82001015				27.3
+NC03_2011.jpg	      0		645	164													Open Water								73.3
+NC03_2011.jpg	      0		1015	181													Unconsolidated	Sand	mud (fine sand)		82001015				72.1
+NC03_2011.jpg	      0		964	15													Bryozoa				20000000				87.1
+NC03_2011.jpg	      0		916	1078													Bryozoa				20000000				21.0
+NC03_2011.jpg	      0		928	1805													Unknown								91.1
+NC03_2011.jpg	      0		595	1745													Open Water								87.6
+NC03_2011.jpg	      0		807	1374													Unknown								48.1
+NC03_2011.jpg	      0		938	371													Unconsolidated	Sand	mud (fine sand)		82001015				52.1
+NC03_2011.jpg	      0		591	839													Open Water								23.3
+NC03_2011.jpg	      0		723	129													Unconsolidated	Sand	mud (fine sand)		82001015				75.3
+NC03_2011.jpg	      0		1049	714													Bryozoa				20000000				28.0
+NC03_2011.jpg	      0		928	1896													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+NC03_2011.jpg	      0		885	1787													Unconsolidated	Sand	mud (fine sand)		82001015				89.0
+NC03_2011.jpg	      0		699	524													Open Water								37.8
+NC04_2011.jpg	      0		722	771													Open Water								56.8
+NC04_2011.jpg	      0		648	1721													Open Water								73.2
+NC04_2011.jpg	      0		803	1097													Unknown								12.8
+NC04_2011.jpg	      0		1055	992													Bryozoa				20000000				39.9
+NC04_2011.jpg	      0		998	1819													Unknown								85.3
+NC04_2011.jpg	      0		1012	1002													Bryozoa				20000000				34.9
+NC04_2011.jpg	      0		731	1293													Open Water								18.2
+NC04_2011.jpg	      0		1067	1172													Unconsolidated	Sand	mud (fine sand)		82001015				31.8
+NC04_2011.jpg	      0		968	1583													Unconsolidated	Sand	mud (fine sand)		82001015				54.6
+NC04_2011.jpg	      0		959	1415													Unconsolidated	Sand	mud (fine sand)		82001015				34.0
+NC04_2011.jpg	      0		541	485													Open Water								100.0
+NC04_2011.jpg	      0		881	1662													Unknown								62.0
+NC04_2011.jpg	      0		726	1140													Open Water								14.8
+NC04_2011.jpg	      0		549	826													Open Water								60.1
+NC04_2011.jpg	      0		700	1260													Unknown								18.7
+NC04_2011.jpg	      0		762	1719													Open Water								69.6
+NC04_2011.jpg	      0		1034	1487													Bryozoa				20000000				47.5
+NC04_2011.jpg	      0		651	688													Open Water								70.0
+NC04_2011.jpg	      0		1031	672													Unconsolidated	Sand	mud (fine sand)		82001015				73.3
+NC04_2011.jpg	      0		677	1036													Open Water								28.3
+NC05_2011.jpg	      0		652	350													Unconsolidated	Sand	mud (fine sand)		82001015				49.4
+NC05_2011.jpg	      0		812	274													Unconsolidated	Sand	mud (fine sand)		82001015				55.6
+NC05_2011.jpg	      0		882	1522													Unconsolidated	Sand	mud (fine sand)		82001015				76.6
+NC05_2011.jpg	      0		749	1750													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+NC05_2011.jpg	      0		950	710													Unconsolidated	Sand	mud (fine sand)		82001015				20.0
+NC05_2011.jpg	      0		690	721													Unconsolidated	Sand	mud (fine sand)		82001015				12.9
+NC05_2011.jpg	      0		706	913													Unconsolidated	Sand	mud (fine sand)		82001015				14.3
+NC05_2011.jpg	      0		979	1125													Unconsolidated	Sand	mud (fine sand)		82001015				39.9
+NC05_2011.jpg	      0		699	438													Unconsolidated	Sand	mud (fine sand)		82001015				39.2
+NC05_2011.jpg	      0		740	1662													Unconsolidated	Sand	mud (fine sand)		82001015				90.7
+NC05_2011.jpg	      0		751	94													Bryozoa				20000000				74.5
+NC05_2011.jpg	      0		755	1693													Unconsolidated	Sand	mud (fine sand)		82001015				94.0
+NC05_2011.jpg	      0		817	1302													Unconsolidated	Sand	mud (fine sand)		82001015				52.8
+NC05_2011.jpg	      0		554	5													Open Water								87.3
+NC05_2011.jpg	      0		634	1152													Open Water								40.1
+NC05_2011.jpg	      0		851	593													Unconsolidated	Sand	mud (fine sand)		82001015				23.1
+NC05_2011.jpg	      0		896	990													Unconsolidated	Sand	mud (fine sand)		82001015				23.2
+NC05_2011.jpg	      0		761	435													Unconsolidated	Sand	mud (fine sand)		82001015				38.6
+NC05_2011.jpg	      0		842	107													Unconsolidated	Sand	mud (fine sand)		82001015				73.3
+NC05_2011.jpg	      0		935	186													Unconsolidated	Sand	mud (fine sand)		82001015				66.8
+SC01_2011.jpg	      0		849	1564													Unknown								74.5
+SC01_2011.jpg	      0		978	1044													Bryozoa				20000000				28.6
+SC01_2011.jpg	      0		988	359													Bryozoa				20000000				46.4
+SC01_2011.jpg	      0		731	292													Unconsolidated	Sand	mud (fine sand)		82001015				50.2
+SC01_2011.jpg	      0		603	1805													Open Water								100.0
+SC01_2011.jpg	      0		841	1307													Unconsolidated	Sand	mud (fine sand)		82001015				49.4
+SC01_2011.jpg	      0		689	307													Open Water								49.7
+SC01_2011.jpg	      0		599	1572													Open Water								78.0
+SC01_2011.jpg	      0		1036	275													Bryozoa				20000000				55.7
+SC01_2011.jpg	      0		766	1282													Unconsolidated	Sand	mud (fine sand)		82001015				47.1
+SC01_2011.jpg	      0		853	1757													Unknown								93.3
+SC01_2011.jpg	      0		773	714													Bryozoa				20000000				9.3
+SC01_2011.jpg	      0		928	174													Unconsolidated	Sand	mud (fine sand)		82001015				62.2
+SC01_2011.jpg	      0		627	255													Open Water								56.2
+SC01_2011.jpg	      0		653	465													Open Water								36.3
+SC01_2011.jpg	      0		1012	51													Bryozoa				20000000				75.6
+SC01_2011.jpg	      0		627	998													Open Water								26.4
+SC01_2011.jpg	      0		646	1000													Open Water								25.3
+SC01_2011.jpg	      0		962	1082													Bryozoa				20000000				31.0
+SC01_2011.jpg	      0		957	222													Bryozoa				20000000				58.2
+SC01_2011.jpg	      0		948	297													Bryozoa				20000000				50.8
+SC02_2011.jpg	      0		651	848													Open Water								23.8
+SC02_2011.jpg	      0		552	1864													Open Water								81.2
+SC02_2011.jpg	      0		972	1415													Unconsolidated	Sand	mud (fine sand)		82001015				39.3
+SC02_2011.jpg	      0		791	25													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+SC02_2011.jpg	      0		617	891													Open Water								22.6
+SC02_2011.jpg	      0		659	568													Bryozoa				20000000				48.8
+SC02_2011.jpg	      0		1044	1785													Unconsolidated	Sand	mud (fine sand)		82001015				75.0
+SC02_2011.jpg	      0		619	345													Open Water								70.7
+SC02_2011.jpg	      0		648	495													Bryozoa				20000000				56.0
+SC02_2011.jpg	      0		623	168													Open Water								87.5
+SC02_2011.jpg	      0		1063	1243													Unconsolidated	Sand	mud (fine sand)		82001015				32.7
+SC02_2011.jpg	      0		719	662													Bryozoa				20000000				38.7
+SC02_2011.jpg	      0		973	255													Unconsolidated	Sand	mud (fine sand)		82001015				79.9
+SC02_2011.jpg	      0		658	1854													Open Water								78.1
+SC02_2011.jpg	      0		749	1671													Unconsolidated	Sand	mud (fine sand)		82001015				59.5
+SC02_2011.jpg	      0		1064	1541													Unconsolidated	Sand	mud (fine sand)		82001015				54.3
+SC02_2011.jpg	      0		793	1434													Unknown								36.5
+SC02_2011.jpg	      0		958	1822													Unknown								76.0
+SC02_2011.jpg	      0		828	643													Bryozoa				20000000				40.4
+SC02_2011.jpg	      0		634	1616													Open Water								56.0
+SC03_2011.jpg	      0		693	1815													Octocoral/Black	Massive soft corals			11168920				100.0
+SC03_2011.jpg	      0		911	1769													Sponges	Hollow forms			10000909				95.8
+SC03_2011.jpg	      0		788	1748													Invertebrate Complex								92.2
+SC03_2011.jpg	      0		817	563													Invertebrate Complex								39.7
+SC03_2011.jpg	      0		567	1357													Open Water								53.8
+SC03_2011.jpg	      0		789	508													Unconsolidated	Sand	mud (fine sand)		82001015				45.6
+SC03_2011.jpg	      0		729	279													Unconsolidated	Sand	mud (fine sand)		82001015				71.2
+SC03_2011.jpg	      0		575	389													Open Water								62.7
+SC03_2011.jpg	      0		558	440													Octocoral/Black	Massive soft corals			11168920				58.2
+SC03_2011.jpg	      0		563	1112													Open Water								31.7
+SC03_2011.jpg	      0		856	1682													Invertebrate Complex								85.3
+SC03_2011.jpg	      0		1046	1225													Unconsolidated	Sand	mud (fine sand)		82001015				45.7
+SC03_2011.jpg	      0		725	259													Unconsolidated	Sand	mud (fine sand)		82001015				73.3
+SC03_2011.jpg	      0		662	1094													Open Water								23.0
+SC03_2011.jpg	      0		782	73													Unconsolidated	Sand	mud (fine sand)		82001015				93.8
+SC03_2011.jpg	      0		845	1185													Unconsolidated	Sand	mud (fine sand)		82001015				30.7
+SC03_2011.jpg	      0		1048	1552													Sponges	Erect forms			10000912				76.8
+SC03_2011.jpg	      0		914	30													Unknown								99.9
+SC03_2011.jpg	      0		768	994													Unconsolidated	Sand	mud (fine sand)		82001015				8.4
+SC03_2011.jpg	      0		804	288													Unknown								70.1
+SC04_2011.jpg	      0		690	1638													Open Water								94.6
+SC04_2011.jpg	      0		905	1695													Bryozoa				20000000				100.0
+SC04_2011.jpg	      0		621	401													Open Water								65.1
+SC04_2011.jpg	      0		1008	796													Bryozoa				20000000				23.3
+SC04_2011.jpg	      0		813	1282													Unconsolidated	Sand	mud (fine sand)		82001015				49.0
+SC04_2011.jpg	      0		666	1123													Unknown								36.3
+SC04_2011.jpg	      0		1067	254													Unconsolidated	Sand	mud (fine sand)		82001015				82.3
+SC04_2011.jpg	      0		850	137													Unconsolidated	Sand	mud (fine sand)		82001015				91.9
+SC04_2011.jpg	      0		761	296													Bryozoa				20000000				72.9
+SC04_2011.jpg	      0		622	609													Open Water								43.1
+SC04_2011.jpg	      0		641	1372													Open Water								64.8
+SC04_2011.jpg	      0		1024	1282													Unconsolidated	Sand	mud (fine sand)		82001015				53.9
+SC04_2011.jpg	      0		1014	1055													Unconsolidated	Sand	mud (fine sand)		82001015				30.1
+SC04_2011.jpg	      0		811	1077													Unconsolidated	Sand	mud (fine sand)		82001015				24.0
+SC04_2011.jpg	      0		943	366													Bryozoa				20000000				65.0
+SC04_2011.jpg	      0		1035	410													Unconsolidated	Sand	mud (fine sand)		82001015				63.0
+SC04_2011.jpg	      0		572	755													Open Water								36.5
+SC04_2011.jpg	      0		970	1340													Bryozoa				20000000				58.3
+SC04_2011.jpg	      0		988	198													Bryozoa				20000000				86.3
+SC04_2011.jpg	      0		787	1594													Unknown								87.6
+SC05_2011.jpg	      0		684	1370													Open Water								41.2
+SC05_2011.jpg	      0		887	1515													Unconsolidated	Sand	mud (fine sand)		82001015				55.3
+SC05_2011.jpg	      0		1057	749													Unconsolidated	Sand	mud (fine sand)		82001015				38.2
+SC05_2011.jpg	      0		1035	169													Unconsolidated	Sand	mud (fine sand)		82001015				92.3
+SC05_2011.jpg	      0		736	137													Unconsolidated	Sand	mud (fine sand)		82001015				92.6
+SC05_2011.jpg	      0		887	1258													Unconsolidated	Sand	mud (fine sand)		82001015				28.6
+SC05_2011.jpg	      0		808	770													Unconsolidated	Sand	mud (fine sand)		82001015				24.9
+SC05_2011.jpg	      0		591	1888													Open Water								97.0
+SC05_2011.jpg	      0		918	1584													Unconsolidated	Sand	mud (fine sand)		82001015				63.1
+SC05_2011.jpg	      0		954	1097													Unconsolidated	Sand	mud (fine sand)		82001015				18.9
+SC05_2011.jpg	      0		553	631													Open Water								47.8
+SC05_2011.jpg	      0		711	1592													Open Water								63.6
+SC05_2011.jpg	      0		828	1641													Unknown								68.0
+SC05_2011.jpg	      0		958	403													Unconsolidated	Sand	mud (fine sand)		82001015				66.0
+SC05_2011.jpg	      0		636	1151													Open Water								23.9
+SC05_2011.jpg	      0		574	1748													Open Water								83.1
+SC05_2011.jpg	      0		547	1478													Open Water								57.6
+SC05_2011.jpg	      0		987	279													Unconsolidated	Sand	mud (fine sand)		82001015				79.6
+SC05_2011.jpg	      0		843	66													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+SC05_2011.jpg	      0		884	533													Unconsolidated	Sand	mud (fine sand)		82001015				50.8
+SW01_2011.jpg	      0		645	489													Open Water								71.7
+SW01_2011.jpg	      0		835	1621													Unknown								35.5
+SW01_2011.jpg	      0		571	1395													Open Water								26.6
+SW01_2011.jpg	      0		577	1499													Open Water								32.4
+SW01_2011.jpg	      0		909	992													Unconsolidated	Sand	mud (fine sand)		82001015				24.9
+SW01_2011.jpg	      0		886	1512													Unconsolidated	Sand	mud (fine sand)		82001015				26.2
+SW01_2011.jpg	      0		936	174													Bryozoa				20000000				100.0
+SW01_2011.jpg	      0		823	513													Unconsolidated	Sand	mud (fine sand)		82001015				67.8
+SW01_2011.jpg	      0		1016	1691													Bryozoa				20000000				46.0
+SW01_2011.jpg	      0		667	1326													Open Water								15.5
+SW01_2011.jpg	      0		796	1862													Unconsolidated	Sand	mud (fine sand)		82001015				57.8
+SW01_2011.jpg	      0		796	1642													Unknown								37.4
+SW01_2011.jpg	      0		1005	938													Unconsolidated	Sand	mud (fine sand)		82001015				33.5
+SW01_2011.jpg	      0		935	1688													Bryozoa				20000000				43.2
+SW01_2011.jpg	      0		598	1813													Open Water								56.8
+SW01_2011.jpg	      0		734	748													Bryozoa				20000000				46.4
+SW01_2011.jpg	      0		1006	244													Bryozoa				20000000				94.5
+SW01_2011.jpg	      0		754	1493													Unknown								24.1
+SW01_2011.jpg	      0		677	1333													Open Water								15.2
+SW01_2011.jpg	      0		1058	1846													Bryozoa				20000000				60.8
+SW02_2011.jpg	      0		779	366													Bryozoa				20000000				71.6
+SW02_2011.jpg	      0		793	992													Unconsolidated	Sand	mud (fine sand)		82001015				4.3
+SW02_2011.jpg	      0		955	1029													Bryozoa				20000000				14.4
+SW02_2011.jpg	      0		751	1179													Unconsolidated	Sand	mud (fine sand)		82001015				19.7
+SW02_2011.jpg	      0		651	1465													Open Water								52.9
+SW02_2011.jpg	      0		1070	1294													Bryozoa				20000000				40.8
+SW02_2011.jpg	      0		976	118													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+SW02_2011.jpg	      0		886	229													Bryozoa				20000000				86.8
+SW02_2011.jpg	      0		649	1589													Open Water								65.8
+SW02_2011.jpg	      0		636	272													Open Water								84.3
+SW02_2011.jpg	      0		813	1736													Unconsolidated	Sand	mud (fine sand)		82001015				79.2
+SW02_2011.jpg	      0		1005	1749													Unknown								82.9
+SW02_2011.jpg	      0		1034	1135													Unconsolidated	Unknown			82001005				26.5
+SW02_2011.jpg	      0		804	202													Bryozoa				20000000				89.5
+SW02_2011.jpg	      0		702	1250													Unknown								29.0
+SW02_2011.jpg	      0		635	293													Open Water								82.1
+SW02_2011.jpg	      0		1036	1811													Unknown								90.4
+SW02_2011.jpg	      0		688	318													Open Water								78.1
+SW02_2011.jpg	      0		1009	1603													Unconsolidated	Sand	mud (fine sand)		82001015				67.6
+SW02_2011.jpg	      0		620	1687													Open Water								77.1
+SW03_2011.jpg	      0		845	1192													Bryozoa				20000000				27.7
+SW03_2011.jpg	      0		546	876													Open Water								28.9
+SW03_2011.jpg	      0		1000	1877													Unknown								100.0
+SW03_2011.jpg	      0		1016	588													Unconsolidated	Sand	mud (fine sand)		82001015				40.2
+SW03_2011.jpg	      0		580	637													Open Water								38.8
+SW03_2011.jpg	      0		893	359													Bryozoa				20000000				59.0
+SW03_2011.jpg	      0		575	1576													Open Water								71.9
+SW03_2011.jpg	      0		853	376													Bryozoa				20000000				56.9
+SW03_2011.jpg	      0		877	984													Bryozoa				20000000				8.3
+SW03_2011.jpg	      0		1056	965													Unconsolidated	Sand	mud (fine sand)		82001015				24.6
+SW03_2011.jpg	      0		838	1096													Unconsolidated	Sand	mud (fine sand)		82001015				17.7
+SW03_2011.jpg	      0		968	655													Bryozoa				20000000				31.8
+SW03_2011.jpg	      0		999	788													Bryozoa				20000000				23.2
+SW03_2011.jpg	      0		590	845													Open Water								25.3
+SW03_2011.jpg	      0		919	1745													Unknown								85.2
+SW03_2011.jpg	      0		846	652													Bryozoa				20000000				28.3
+SW03_2011.jpg	      0		606	771													Open Water								27.4
+SW03_2011.jpg	      0		584	867													Open Water								25.3
+SW03_2011.jpg	      0		1037	1060													Unconsolidated	Sand	mud (fine sand)		82001015				26.3
+SW03_2011.jpg	      0		807	599													Bryozoa				20000000				33.8
+SW04_2011.jpg	      0		552	1578													Open Water								36.2
+SW04_2011.jpg	      0		735	1722													Unconsolidated	Sand	mud (fine sand)		82001015				45.7
+SW04_2011.jpg	      0		797	1222													Unconsolidated	Sand	mud (fine sand)		82001015				6.6
+SW04_2011.jpg	      0		584	865													Open Water								33.9
+SW04_2011.jpg	      0		822	1788																					52.3
+SW04_2011.jpg	      0		1040	1275													Unconsolidated	Sand	mud (fine sand)		82001015				29.0
+SW04_2011.jpg	      0		1028	476													Bryozoa				20000000				71.8
+SW04_2011.jpg	      0		912	1346													Bryozoa				20000000				20.6
+SW04_2011.jpg	      0		926	1894													Unknown								63.8
+SW04_2011.jpg	      0		611	1712													Open Water								45.9
+SW04_2011.jpg	      0		611	109													Open Water								100.0
+SW04_2011.jpg	      0		637	1075													Open Water								14.8
+SW04_2011.jpg	      0		645	876													Open Water								31.2
+SW04_2011.jpg	      0		568	1631													Open Water								40.0
+SW04_2011.jpg	      0		595	178													Open Water								93.9
+SW04_2011.jpg	      0		584	1913													Open Water								64.1
+SW04_2011.jpg	      0		564	659													Open Water								52.0
+SW04_2011.jpg	      0		851	1753													Unknown								49.8
+SW04_2011.jpg	      0		617	1228													Unknown								9.7
+SW04_2011.jpg	      0		798	989													Unknown								21.4
+SW05_2011.jpg	      0		978	662													Bryozoa				20000000				29.0
+SW05_2011.jpg	      0		1050	209													Bryozoa				20000000				74.4
+SW05_2011.jpg	      0		831	460													Bryozoa				20000000				46.7
+SW05_2011.jpg	      0		716	1461													Bryozoa				20000000				55.9
+SW05_2011.jpg	      0		800	1141													Unconsolidated	Sand	mud (fine sand)		82001015				22.5
+SW05_2011.jpg	      0		898	958													Unconsolidated	Sand	mud (fine sand)		82001015				5.3
+SW05_2011.jpg	      0		978	420													Bryozoa				20000000				52.1
+SW05_2011.jpg	      0		958	966													Unconsolidated	Sand	mud (fine sand)		82001015				10.9
+SW05_2011.jpg	      0		1042	147													Bryozoa				20000000				80.2
+SW05_2011.jpg	      0		1051	424													Bryozoa				20000000				53.9
+SW05_2011.jpg	      0		615	1798													Open Water								91.2
+SW05_2011.jpg	      0		742	810													Bryozoa				20000000				16.3
+SW05_2011.jpg	      0		939	422													Bryozoa				20000000				51.1
+SW05_2011.jpg	      0		785	1873													Unconsolidated	Sand	mud (fine sand)		82001015				95.7
+SW05_2011.jpg	      0		635	294													Bryozoa				20000000				67.2
+SW05_2011.jpg	      0		969	1407													Bryozoa				20000000				49.9
+SW05_2011.jpg	      0		560	1874													Open Water								100.0
+SW05_2011.jpg	      0		616	798													Open Water								27.4
+SW05_2011.jpg	      0		920	544													Unconsolidated	Sand	mud (fine sand)		82001015				38.7
+SW05_2011.jpg	      0		1073	1812													Bryozoa				20000000				91.8

@@ -10,8 +10,6 @@ aus <- st_read("data/spatial/shapefiles/cstauscd_r.mif",
   dplyr::filter(!FEAT_CODE %in% "sea") %>%
   terra::vect()
 
-# plot(aus, max.plot = 1)
-
 bathy <- terra::rast("data/spatial/rasters/raw bathymetry/Australian_Bathymetry_and_Topography_2023_250m_MSL_cog.tif") %>%
   terra::crop(ext(110, 155, -45, -23.4394)) %>%
   terra::mask(aus, inverse = T) %>%
@@ -19,4 +17,16 @@ bathy <- terra::rast("data/spatial/rasters/raw bathymetry/Australian_Bathymetry_
   terra::trim()
 plot(bathy)
 
+preds <- terra::terrain(bathy, v = c("slope", "roughness", "TPI", 
+                                     "TRI","aspect", "TRIriley",
+                                     "TRIrmsd"),
+                        unit = "degrees", 
+                        neighbors = 8)
+plot(preds)
 
+preds <- rast(list(bathy, preds))
+names(preds)[1] <- "depth"
+plot(preds)
+preds <- terra::wrap(preds)
+
+saveRDS(preds, file = "data/spatial/rasters/raw bathymetry/NESP-2.1_bathymetry-derivatives.rds")

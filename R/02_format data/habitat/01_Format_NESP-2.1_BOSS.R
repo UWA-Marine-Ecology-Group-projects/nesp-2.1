@@ -22,7 +22,7 @@ library(readr)
 library(ggplot2)
 
 # Study name ----
-study <- "2022-11_Esperance" 
+study <- "nesp_2.1" 
 
 # Read in metadata----
 read_files_csv <- function(flnm) {
@@ -40,9 +40,11 @@ metadata <- list.files(path = "data/raw",
   purrr::map_dfr(~read_files_csv(.)) %>%
   dplyr::select(campaignid, sample, latitude, longitude, date, site, location, successful.count, depth) %>% # select only these columns to keep
   dplyr::mutate(sample = as.character(sample)) %>% # in this example dataset, the samples are numerical
+  dplyr::mutate(sample = ifelse(campaignid %in% "202111-202205_SA Commonwealth Marine Park Monitoring_StereoBRUVS" &
+                                  str_detect(sample, "WE|MU"),
+                                str_sub(sample, start = 1L, end = -6L), sample)) %>%
   # dplyr::filter(!successful.count %in% c("No", "no", "N", "n")) %>%
-  # dplyr::filter(!campaignid %in% c(
-  #                                  "Salisbury_Investigator_MBH_BOSS_habitat")) %>% # Remove utas data
+  dplyr::filter(!campaignid %in% c("201811_Comm_PearsonExpedition_StereoBRUVS")) %>% 
   glimpse() # preview
 
 unique(metadata$campaignid)
@@ -94,20 +96,42 @@ habitat <- list.files(path = "data/raw",
                                 str_extract(sample, "(?<=Huon_)[:digit:]{1,}_[:digit:]{1,}(?=[:graph:])"), sample)) %>%
   dplyr::mutate(sample = ifelse(campaignid %in% "Salisbury_Investigator_MBH_BOSS_habitat",
                                 str_replace_all(sample, c("_" = "-", "INC" = "INV")), sample)) %>%
+  dplyr::mutate(sample = ifelse(campaignid %in% "202111-202205_SA Commonwealth Marine Park Monitoring_StereoBRUVS" &
+                                  str_length(sample) == 11,
+                                str_replace_all(sample, "([^_]+)_(.*)", "O"), sample)) %>%
+  dplyr::mutate(sample = ifelse(campaignid %in% "202011-202011_SA Commonwealth Marine Park Monitoring_StereoBRUVS",
+                                str_replace_all(sample, c("SW" = "CKWI", "SC" = "CKCI",
+                                                          "SE" = "CKEI", "NW" = "WKWI",
+                                                          "NE" = "WKEI", "NC" = "WKCI")), sample)) %>%
   dplyr::select(campaignid, sample, broad, morphology, type, starts_with("catami")) %>%
   separate(catami_l2_l3, into = c("catami_l2", "catami_l3"), sep = " > ") %>%
   bind_rows(zeehan) %>%
+  dplyr::filter(!campaignid %in% c("201811_Comm_PearsonExpedition_StereoBRUVS")) %>% 
   glimpse() # preview
+
+# test <- habitat %>%
+#   dplyr::filter(campaignid %in% c("202011-202011_SA Commonwealth Marine Park Monitoring_StereoBRUVS",
+#                                   "202111-202205_SA Commonwealth Marine Park Monitoring_StereoBRUVS")) %>%
+#   distinct(campaignid, sample)
 
 no.annotations <- habitat %>%
   group_by(campaignid, sample) %>%
-  dplyr::summarise(points.annotated=n()) # Some images only have 3 directions annotated
+  dplyr::summarise(points.annotated = n()) # Some images only have 3 directions annotated
 
 # Check that the image names match the metadata samples -----
 missing.metadata <- anti_join(habitat,metadata, 
-                              by = c("campaignid","sample"))                    # None
+                              by = c("campaignid","sample")) %>%
+  distinct(campaignid, sample)
+
+write.csv(missing.metadata, file = "data/raw/habitat-missing-metadata.csv",
+          row.names = F)
+
 missing.habitat <- anti_join(metadata,habitat, 
-                             by = c("campaignid","sample"))                     # I assume these ones are ok
+                             by = c("campaignid","sample")) %>%
+  distinct(campaignid, sample) 
+
+write.csv(missing.habitat, file = "data/raw/metadata-missing-habitat.csv",
+          row.names = F)
 
 # CREATE broad classifications
 con <- read.csv("data/schema/CATAMI-UWA_conversion.csv") %>%

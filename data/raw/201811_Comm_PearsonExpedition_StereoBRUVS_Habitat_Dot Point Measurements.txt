@@ -1,0 +1,326 @@
+Dot Point Measurements
+
+Generated: Friday 04 August 2023 10:22:47
+
+Filename	Frame	Time (mins)	Image row	Image col	Date	Location	Site #	Transect #	Latitude	Longitude	Rugosity	Depth	Collector	Fishing status	Spare	Spare	BROAD	MORPHOLOGY	TYPE	RELIEF	CODE				Radius %
+WEEI01_1811.jpg	      0		757	1260													Unconsolidated	Sand	mud (fine sand)		82001015				22.6
+WEEI01_1811.jpg	      0		640	1265													Unknown								27.6
+WEEI01_1811.jpg	      0		619	1665													Open Water								74.3
+WEEI01_1811.jpg	      0		1050	941													Unconsolidated	Sand	mud (fine sand)		82001015				38.9
+WEEI01_1811.jpg	      0		725	961													Unconsolidated	Sand	mud (fine sand)		82001015				14.7
+WEEI01_1811.jpg	      0		716	1834													Unconsolidated	Sand	mud (fine sand)		82001015				93.2
+WEEI01_1811.jpg	      0		935	285													Unconsolidated	Sand	mud (fine sand)		82001015				99.1
+WEEI01_1811.jpg	      0		976	1511													Unconsolidated	Sand	mud (fine sand)		82001015				59.5
+WEEI01_1811.jpg	      0		827	1493													Unknown								51.8
+WEEI01_1811.jpg	      0		544	923													Open Water								32.6
+WEEI01_1811.jpg	      0		725	1549													Unconsolidated	Sand	mud (fine sand)		82001015				58.2
+WEEI01_1811.jpg	      0		616	326													Open Water								93.5
+WEEI01_1811.jpg	      0		623	271													Open Water								100.0
+WEEI01_1811.jpg	      0		639	568													Open Water								63.9
+WEEI01_1811.jpg	      0		825	915													Unconsolidated	Sand	mud (fine sand)		82001015				21.1
+WEEI01_1811.jpg	      0		1041	1195													Unconsolidated	Sand	mud (fine sand)		82001015				37.2
+WEEI01_1811.jpg	      0		922	1278													Unconsolidated	Sand	mud (fine sand)		82001015				31.6
+WEEI01_1811.jpg	      0		543	1180													Open Water								29.8
+WEEI01_1811.jpg	      0		922	714													Unconsolidated	Sand	mud (fine sand)		82001015				48.4
+WEEI01_1811.jpg	      0		595	1370													Open Water								41.5
+WEEI02_1811.jpg	      0		608	1620													Open Water								75.8
+WEEI02_1811.jpg	      0		821	1070													Unconsolidated	Sand	mud (fine sand)		82001015				20.2
+WEEI02_1811.jpg	      0		964	170													Unconsolidated	Sand	mud (fine sand)		82001015				66.0
+WEEI02_1811.jpg	      0		677	1240													Unknown								40.0
+WEEI02_1811.jpg	      0		1035	326													Unconsolidated	Sand	mud (fine sand)		82001015				53.1
+WEEI02_1811.jpg	      0		852	1001													Unconsolidated	Sand	mud (fine sand)		82001015				13.4
+WEEI02_1811.jpg	      0		1045	13													Unconsolidated	Sand	mud (fine sand)		82001015				82.0
+WEEI02_1811.jpg	      0		883	1826													Unknown								91.4
+WEEI02_1811.jpg	      0		852	681													Unconsolidated	Sand	mud (fine sand)		82001015				17.0
+WEEI02_1811.jpg	      0		959	372													Unconsolidated	Sand	mud (fine sand)		82001015				47.1
+WEEI02_1811.jpg	      0		806	631													Unconsolidated	Sand	mud (fine sand)		82001015				22.3
+WEEI02_1811.jpg	      0		641	1561													Open Water								69.5
+WEEI02_1811.jpg	      0		1065	372													Unconsolidated	Sand	mud (fine sand)		82001015				49.9
+WEEI02_1811.jpg	      0		869	328													Unconsolidated	Sand	mud (fine sand)		82001015				50.3
+WEEI02_1811.jpg	      0		1057	1423													Unconsolidated	Sand	mud (fine sand)		82001015				56.4
+WEEI02_1811.jpg	      0		909	1916													Unknown								100.0
+WEEI02_1811.jpg	      0		1066	47													Unconsolidated	Sand	mud (fine sand)		82001015				79.3
+WEEI02_1811.jpg	      0		904	427													Unconsolidated	Sand	mud (fine sand)		82001015				41.2
+WEEI02_1811.jpg	      0		638	1341													Unknown								50.2
+WEEI02_1811.jpg	      0		590	833													Open Water								25.9
+WEEI03_1811.jpg	      0		618	1585													Open Water								73.8
+WEEI03_1811.jpg	      0		577	316													Open Water								67.6
+WEEI03_1811.jpg	      0		847	633													Unconsolidated	Sand	mud (fine sand)		82001015				29.0
+WEEI03_1811.jpg	      0		1040	744													Unconsolidated	Sand	mud (fine sand)		82001015				27.9
+WEEI03_1811.jpg	      0		837	1826													Unconsolidated	Sand	mud (fine sand)		82001015				95.5
+WEEI03_1811.jpg	      0		990	696													Unconsolidated	Sand	mud (fine sand)		82001015				27.9
+WEEI03_1811.jpg	      0		837	1869													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+WEEI03_1811.jpg	      0		1015	563													Unconsolidated	Sand	mud (fine sand)		82001015				41.1
+WEEI03_1811.jpg	      0		953	891													Unconsolidated	Sand	mud (fine sand)		82001015				12.9
+WEEI03_1811.jpg	      0		882	1659													Unknown								78.3
+WEEI03_1811.jpg	      0		564	676													Open Water								37.3
+WEEI03_1811.jpg	      0		774	363													Unconsolidated	Sand	mud (fine sand)		82001015				57.6
+WEEI03_1811.jpg	      0		1035	218													Unconsolidated	Sand	mud (fine sand)		82001015				75.4
+WEEI03_1811.jpg	      0		769	299													Unconsolidated	Sand	mud (fine sand)		82001015				64.2
+WEEI03_1811.jpg	      0		602	637													Open Water								37.3
+WEEI03_1811.jpg	      0		905	1497													Unconsolidated	Sand	mud (fine sand)		82001015				61.6
+WEEI03_1811.jpg	      0		1027	1786													Unconsolidated	Sand	mud (fine sand)		82001015				93.6
+WEEI03_1811.jpg	      0		732	1007													Open Water								14.5
+WEEI03_1811.jpg	      0		950	684													Unconsolidated	Sand	mud (fine sand)		82001015				26.8
+WEEI03_1811.jpg	      0		680	273													Open Water								68.4
+WEEI04_1811.jpg	      0		930	895													Unconsolidated	Sand	mud (fine sand)		82001015				15.4
+WEEI04_1811.jpg	      0		945	170													Unconsolidated	Sand	mud (fine sand)		82001015				86.9
+WEEI04_1811.jpg	      0		968	899													Unconsolidated	Sand	mud (fine sand)		82001015				18.2
+WEEI04_1811.jpg	      0		756	36													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+WEEI04_1811.jpg	      0		1044	1176													Unconsolidated	Sand	mud (fine sand)		82001015				29.4
+WEEI04_1811.jpg	      0		666	767													Open Water								29.0
+WEEI04_1811.jpg	      0		1003	1873													Unconsolidated	Sand	mud (fine sand)		82001015				92.6
+WEEI04_1811.jpg	      0		593	1490													Open Water								56.2
+WEEI04_1811.jpg	      0		674	190													Open Water								85.2
+WEEI04_1811.jpg	      0		1039	1378													Unconsolidated	Sand	mud (fine sand)		82001015				45.3
+WEEI04_1811.jpg	      0		851	1414													Unconsolidated	Sand	mud (fine sand)		82001015				43.3
+WEEI04_1811.jpg	      0		761	1868													Unconsolidated	Sand	mud (fine sand)		82001015				90.4
+WEEI04_1811.jpg	      0		650	1096													Open Water								20.6
+WEEI04_1811.jpg	      0		1008	1690													Unconsolidated	Sand	mud (fine sand)		82001015				74.3
+WEEI04_1811.jpg	      0		982	126													Unconsolidated	Sand	mud (fine sand)		82001015				91.9
+WEEI04_1811.jpg	      0		1019	1040													Unconsolidated	Sand	mud (fine sand)		82001015				20.8
+WEEI04_1811.jpg	      0		561	641													Open Water								45.9
+WEEI04_1811.jpg	      0		788	1547													Unknown								57.0
+WEEI04_1811.jpg	      0		601	511													Open Water								55.5
+WEEI04_1811.jpg	      0		615	1159													Open Water								27.2
+WEEI05_1811.jpg	      0		872	1301													Unconsolidated	Sand	mud (fine sand)		82001015				24.8
+WEEI05_1811.jpg	      0		591	1199													Unknown								22.8
+WEEI05_1811.jpg	      0		607	1540													Open Water								51.2
+WEEI05_1811.jpg	      0		789	1767													Unconsolidated	Sand	mud (fine sand)		82001015				72.2
+WEEI05_1811.jpg	      0		828	1667													Unknown								61.8
+WEEI05_1811.jpg	      0		1018	828													Unconsolidated	Sand	mud (fine sand)		82001015				38.1
+WEEI05_1811.jpg	      0		725	154													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+WEEI05_1811.jpg	      0		916	1839													Unknown								81.2
+WEEI05_1811.jpg	      0		705	1413													Unconsolidated	Sand	mud (fine sand)		82001015				35.2
+WEEI05_1811.jpg	      0		845	1278													Unconsolidated	Sand	mud (fine sand)		82001015				21.4
+WEEI05_1811.jpg	      0		992	1615													Unconsolidated	Sand	mud (fine sand)		82001015				60.6
+WEEI05_1811.jpg	      0		611	1096													Open Water								17.5
+WEEI05_1811.jpg	      0		918	1720													Unconsolidated	Sand	mud (fine sand)		82001015				68.9
+WEEI05_1811.jpg	      0		766	229													Unconsolidated	Sand	mud (fine sand)		82001015				91.8
+WEEI05_1811.jpg	      0		622	443													Open Water								71.0
+WEEI05_1811.jpg	      0		825	623													Unconsolidated	Sand	mud (fine sand)		82001015				50.1
+WEEI05_1811.jpg	      0		660	1163													Unknown								14.5
+WEEI05_1811.jpg	      0		774	1061													Unconsolidated	Sand	mud (fine sand)		82001015				3.2
+WEEI05_1811.jpg	      0		703	806													Open Water								31.3
+WEEI05_1811.jpg	      0		727	833													Unconsolidated	Sand	mud (fine sand)		82001015				27.9
+WEEI05_1811.jpg	      0		775	320													Unconsolidated	Sand	mud (fine sand)		82001015				82.1
+WEEI06_1811.jpg	      0		886	436													Unconsolidated	Sand	mud (fine sand)		82001015				64.9
+WEEI06_1811.jpg	      0		827	1852													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+WEEI06_1811.jpg	      0		1054	1765													Unconsolidated	Sand	mud (fine sand)		82001015				93.7
+WEEI06_1811.jpg	      0		541	643													Open Water								52.3
+WEEI06_1811.jpg	      0		953	629													Unconsolidated	Sand	mud (fine sand)		82001015				44.5
+WEEI06_1811.jpg	      0		1039	895													Unconsolidated	Sand	mud (fine sand)		82001015				27.1
+WEEI06_1811.jpg	      0		909	928													Unconsolidated	Sand	mud (fine sand)		82001015				12.0
+WEEI06_1811.jpg	      0		707	1666													Open Water								79.6
+WEEI06_1811.jpg	      0		663	786													Open Water								30.5
+WEEI06_1811.jpg	      0		875	1481													Unconsolidated	Sand	mud (fine sand)		82001015				57.2
+WEEI06_1811.jpg	      0		734	1210													Unknown								27.6
+WEEI06_1811.jpg	      0		565	206													Open Water								96.2
+WEEI06_1811.jpg	      0		777	478													Unconsolidated	Sand	mud (fine sand)		82001015				59.9
+WEEI06_1811.jpg	      0		546	670													Open Water								49.5
+WEEI06_1811.jpg	      0		897	1576													Unconsolidated	Sand	mud (fine sand)		82001015				68.4
+WEEI06_1811.jpg	      0		862	1493													Unconsolidated	Sand	mud (fine sand)		82001015				58.5
+WEEI06_1811.jpg	      0		923	1667													Unconsolidated	Sand	mud (fine sand)		82001015				79.3
+WEEI06_1811.jpg	      0		872	299													Unconsolidated	Sand	mud (fine sand)		82001015				80.6
+WEEI06_1811.jpg	      0		944	457													Unconsolidated	Sand	mud (fine sand)		82001015				63.5
+WEEI06_1811.jpg	      0		965	685													Unconsolidated	Sand	mud (fine sand)		82001015				39.0
+WEEI07_1811.jpg	      0		770	285													Unconsolidated	Sand	mud (fine sand)		82001015				46.1
+WEEI07_1811.jpg	      0		1064	53													Unconsolidated	Sand	mud (fine sand)		82001015				72.2
+WEEI07_1811.jpg	      0		548	360													Open Water								44.7
+WEEI07_1811.jpg	      0		966	1400													Unconsolidated	Sand	mud (fine sand)		82001015				58.4
+WEEI07_1811.jpg	      0		747	50													Unconsolidated	Sand	mud (fine sand)		82001015				67.7
+WEEI07_1811.jpg	      0		862	1301													Unconsolidated	Sand	mud (fine sand)		82001015				47.4
+WEEI07_1811.jpg	      0		1054	280													Unconsolidated	Sand	mud (fine sand)		82001015				52.9
+WEEI07_1811.jpg	      0		637	1023													Open Water								25.1
+WEEI07_1811.jpg	      0		677	696													Open Water								12.8
+WEEI07_1811.jpg	      0		595	645													Open Water								21.5
+WEEI07_1811.jpg	      0		675	796													Open Water								9.7
+WEEI07_1811.jpg	      0		595	158													Open Water								60.2
+WEEI07_1811.jpg	      0		628	788													Open Water								13.9
+WEEI07_1811.jpg	      0		773	1882													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+WEEI07_1811.jpg	      0		992	782													Unconsolidated	Sand	mud (fine sand)		82001015				19.4
+WEEI07_1811.jpg	      0		856	1796													Unknown								92.4
+WEEI07_1811.jpg	      0		754	1742													Unconsolidated	Sand	mud (fine sand)		82001015				87.2
+WEEI07_1811.jpg	      0		676	475													Open Water								30.3
+WEEI07_1811.jpg	      0		675	1069													Unknown								27.4
+WEEI07_1811.jpg	      0		1064	205													Unconsolidated	Sand	mud (fine sand)		82001015				59.4
+WEEI08_1811.jpg	      0		669	1547													Open Water								46.8
+WEEI08_1811.jpg	      0		755	1727													Open Water								61.5
+WEEI08_1811.jpg	      0		1049	1638													Unconsolidated	Sand	mud (fine sand)		82001015				56.6
+WEEI08_1811.jpg	      0		788	1624													Unconsolidated	Sand	mud (fine sand)		82001015				51.7
+WEEI08_1811.jpg	      0		1032	1175													Unconsolidated	Sand	mud (fine sand)		82001015				21.1
+WEEI08_1811.jpg	      0		820	1900													Unconsolidated	Sand	mud (fine sand)		82001015				77.2
+WEEI08_1811.jpg	      0		1013	12													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+WEEI08_1811.jpg	      0		949	232													Unconsolidated	Sand	mud (fine sand)		82001015				78.8
+WEEI08_1811.jpg	      0		914	699													Unconsolidated	Sand	mud (fine sand)		82001015				35.4
+WEEI08_1811.jpg	      0		971	1136													Unconsolidated	Sand	mud (fine sand)		82001015				14.5
+WEEI08_1811.jpg	      0		604	416													Open Water								64.4
+WEEI08_1811.jpg	      0		1041	1238													Unconsolidated	Sand	mud (fine sand)		82001015				25.0
+WEEI08_1811.jpg	      0		582	440													Open Water								63.0
+WEEI08_1811.jpg	      0		991	357													Unconsolidated	Sand	mud (fine sand)		82001015				68.1
+WEEI08_1811.jpg	      0		871	1166													Unconsolidated	Sand	mud (fine sand)		82001015				9.7
+WEEI08_1811.jpg	      0		696	1158													Open Water								15.0
+WEEI08_1811.jpg	      0		613	1390													Open Water								36.0
+WEEI08_1811.jpg	      0		870	1267													Unconsolidated	Sand	mud (fine sand)		82001015				18.7
+WEEI08_1811.jpg	      0		603	477													Open Water								59.2
+WEEI08_1811.jpg	      0		782	1809													Unconsolidated	Sand	mud (fine sand)		82001015				68.9
+WEWI01_1811.jpg	      0		1060	1093													Unconsolidated	Sand	mud (fine sand)		82001015				36.3
+WEWI01_1811.jpg	      0		870	1824													Unknown								90.2
+WEWI01_1811.jpg	      0		629	1549													Open Water								61.3
+WEWI01_1811.jpg	      0		822	635													Unconsolidated	Sand	mud (fine sand)		82001015				36.6
+WEWI01_1811.jpg	      0		700	294													Unconsolidated	Sand	mud (fine sand)		82001015				71.1
+WEWI01_1811.jpg	      0		584	546													Open Water								47.5
+WEWI01_1811.jpg	      0		678	1639													Open Water								69.9
+WEWI01_1811.jpg	      0		756	1355													Unknown								40.0
+WEWI01_1811.jpg	      0		618	1209													Open Water								27.6
+WEWI01_1811.jpg	      0		727	105													Unconsolidated	Sand	mud (fine sand)		82001015				90.8
+WEWI01_1811.jpg	      0		595	1451													Open Water								52.1
+WEWI01_1811.jpg	      0		640	936													Open Water								10.6
+WEWI01_1811.jpg	      0		913	1253													Unconsolidated	Sand	mud (fine sand)		82001015				34.7
+WEWI01_1811.jpg	      0		733	644													Unconsolidated	Sand	mud (fine sand)		82001015				34.4
+WEWI01_1811.jpg	      0		555	422													Open Water								60.6
+WEWI01_1811.jpg	      0		937	723													Unconsolidated	Sand	mud (fine sand)		82001015				33.6
+WEWI01_1811.jpg	      0		664	1363													Unknown								41.5
+WEWI01_1811.jpg	      0		680	19													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+WEWI01_1811.jpg	      0		801	856													Unconsolidated	Sand	mud (fine sand)		82001015				14.1
+WEWI01_1811.jpg	      0		736	1543													Unconsolidated	Sand	mud (fine sand)		82001015				59.7
+WEWI02_1811.jpg	      0		664	202													Open Water								63.6
+WEWI02_1811.jpg	      0		619	982													Open Water								22.4
+WEWI02_1811.jpg	      0		923	1767													Unconsolidated	Sand	mud (fine sand)		82001015				93.7
+WEWI02_1811.jpg	      0		864	5													Unconsolidated	Sand	mud (fine sand)		82001015				82.3
+WEWI02_1811.jpg	      0		841	1044													Unconsolidated	Sand	mud (fine sand)		82001015				21.7
+WEWI02_1811.jpg	      0		1033	428													Unconsolidated	Sand	mud (fine sand)		82001015				46.9
+WEWI02_1811.jpg	      0		802	1587													Unconsolidated	Sand	mud (fine sand)		82001015				74.9
+WEWI02_1811.jpg	      0		625	1300													Open Water								49.1
+WEWI02_1811.jpg	      0		982	720													Unconsolidated	Sand	mud (fine sand)		82001015				22.2
+WEWI02_1811.jpg	      0		695	878													Unknown								10.3
+WEWI02_1811.jpg	      0		555	138													Open Water								72.5
+WEWI02_1811.jpg	      0		1049	681													Unconsolidated	Sand	mud (fine sand)		82001015				29.9
+WEWI02_1811.jpg	      0		969	805													Unconsolidated	Sand	mud (fine sand)		82001015				18.2
+WEWI02_1811.jpg	      0		1003	210													Unconsolidated	Sand	mud (fine sand)		82001015				65.2
+WEWI02_1811.jpg	      0		547	1812													Open Water								100.0
+WEWI02_1811.jpg	      0		694	563													Open Water								28.2
+WEWI02_1811.jpg	      0		562	872													Unknown								22.7
+WEWI02_1811.jpg	      0		764	1702													Open Water								86.3
+WEWI02_1811.jpg	      0		930	810													Unconsolidated	Sand	mud (fine sand)		82001015				14.2
+WEWI02_1811.jpg	      0		633	129													Open Water								71.3
+WEWI03_1811.jpg	      0		845	589													Unconsolidated	Sand	mud (fine sand)		82001015				31.1
+WEWI03_1811.jpg	      0		662	416													Open Water								50.7
+WEWI03_1811.jpg	      0		717	103													Unconsolidated	Sand	mud (fine sand)		82001015				79.8
+WEWI03_1811.jpg	      0		929	1440													Unconsolidated	Sand	mud (fine sand)		82001015				54.0
+WEWI03_1811.jpg	      0		921	1105													Unconsolidated	Sand	mud (fine sand)		82001015				22.0
+WEWI03_1811.jpg	      0		850	1376													Unconsolidated	Sand	mud (fine sand)		82001015				46.7
+WEWI03_1811.jpg	      0		672	976													Open Water								16.7
+WEWI03_1811.jpg	      0		933	1424													Unconsolidated	Sand	mud (fine sand)		82001015				52.5
+WEWI03_1811.jpg	      0		574	1884													Open Water								100.0
+WEWI03_1811.jpg	      0		736	682													Unconsolidated	Sand	mud (fine sand)		82001015				23.6
+WEWI03_1811.jpg	      0		911	1421													Unconsolidated	Sand	mud (fine sand)		82001015				51.8
+WEWI03_1811.jpg	      0		715	380													Unconsolidated	Sand	mud (fine sand)		82001015				52.8
+WEWI03_1811.jpg	      0		839	659													Unconsolidated	Sand	mud (fine sand)		82001015				24.2
+WEWI03_1811.jpg	      0		991	349													Unconsolidated	Sand	mud (fine sand)		82001015				57.2
+WEWI03_1811.jpg	      0		709	1465													Open Water								56.6
+WEWI03_1811.jpg	      0		958	186													Unconsolidated	Sand	mud (fine sand)		82001015				72.1
+WEWI03_1811.jpg	      0		908	308													Unconsolidated	Sand	mud (fine sand)		82001015				59.4
+WEWI03_1811.jpg	      0		795	1376													Unknown								46.8
+WEWI03_1811.jpg	      0		1058	131													Unconsolidated	Sand	mud (fine sand)		82001015				79.7
+WEWI03_1811.jpg	      0		777	1801													Open Water								88.8
+WEWI04_1811.jpg	      0		981	1632													Unconsolidated	Sand	mud (fine sand)		82001015				62.9
+WEWI04_1811.jpg	      0		1044	1842													Unconsolidated	Sand	mud (fine sand)		82001015				84.5
+WEWI04_1811.jpg	      0		857	1241													Unconsolidated	Sand	mud (fine sand)		82001015				23.5
+WEWI04_1811.jpg	      0		957	125													Unconsolidated	Sand	mud (fine sand)		82001015				87.5
+WEWI04_1811.jpg	      0		903	1150													Unconsolidated	Sand	mud (fine sand)		82001015				14.5
+WEWI04_1811.jpg	      0		664	19													Open Water								100.0
+WEWI04_1811.jpg	      0		676	1290													Open Water								34.7
+WEWI04_1811.jpg	      0		836	1112													Unconsolidated	Sand	mud (fine sand)		82001015				11.4
+WEWI04_1811.jpg	      0		1016	1567													Unconsolidated	Sand	mud (fine sand)		82001015				57.3
+WEWI04_1811.jpg	      0		1019	603													Unconsolidated	Sand	mud (fine sand)		82001015				42.2
+WEWI04_1811.jpg	      0		689	1469													Open Water								49.7
+WEWI04_1811.jpg	      0		608	1801													Open Water								83.3
+WEWI04_1811.jpg	      0		927	484													Unconsolidated	Sand	mud (fine sand)		82001015				51.9
+WEWI04_1811.jpg	      0		754	1084													Unconsolidated	Sand	mud (fine sand)		82001015				14.6
+WEWI04_1811.jpg	      0		818	1754													Unknown								74.4
+WEWI04_1811.jpg	      0		1016	257													Unconsolidated	Sand	mud (fine sand)		82001015				75.4
+WEWI04_1811.jpg	      0		1027	1344													Unconsolidated	Sand	mud (fine sand)		82001015				36.6
+WEWI04_1811.jpg	      0		874	368													Unconsolidated	Sand	mud (fine sand)		82001015				63.2
+WEWI04_1811.jpg	      0		944	15													Unconsolidated	Sand	mud (fine sand)		82001015				98.4
+WEWI04_1811.jpg	      0		967	951													Unconsolidated	Sand	mud (fine sand)		82001015				10.3
+WEWI05_1811.jpg	      0		857	709													Unconsolidated	Sand	mud (fine sand)		82001015				23.7
+WEWI05_1811.jpg	      0		790	932													Unconsolidated	Sand	mud (fine sand)		82001015				3.3
+WEWI05_1811.jpg	      0		653	1891													Open Water								100.0
+WEWI05_1811.jpg	      0		573	303													Open Water								70.1
+WEWI05_1811.jpg	      0		767	1594													Unknown								68.1
+WEWI05_1811.jpg	      0		854	705													Unconsolidated	Sand	mud (fine sand)		82001015				24.0
+WEWI05_1811.jpg	      0		646	1248													Open Water								36.9
+WEWI05_1811.jpg	      0		1045	203													Unconsolidated	Sand	mud (fine sand)		82001015				78.9
+WEWI05_1811.jpg	      0		947	1223													Unconsolidated	Sand	mud (fine sand)		82001015				32.3
+WEWI05_1811.jpg	      0		683	1443													Open Water								54.2
+WEWI05_1811.jpg	      0		1016	91													Unconsolidated	Sand	mud (fine sand)		82001015				89.4
+WEWI05_1811.jpg	      0		905	1677													Unconsolidated	Sand	mud (fine sand)		82001015				76.9
+WEWI05_1811.jpg	      0		753	1083													Unconsolidated	Sand	mud (fine sand)		82001015				16.7
+WEWI05_1811.jpg	      0		652	981													Open Water								18.2
+WEWI05_1811.jpg	      0		829	1670													Unknown								75.6
+WEWI05_1811.jpg	      0		557	577													Open Water								45.9
+WEWI05_1811.jpg	      0		862	689													Unconsolidated	Sand	mud (fine sand)		82001015				25.8
+WEWI05_1811.jpg	      0		997	646													Unconsolidated	Sand	mud (fine sand)		82001015				34.9
+WEWI05_1811.jpg	      0		1068	581													Unconsolidated	Sand	mud (fine sand)		82001015				44.4
+WEWI05_1811.jpg	      0		987	471													Unconsolidated	Sand	mud (fine sand)		82001015				50.8
+WEWI06_1811.jpg	      0		785	1108													Unconsolidated	Sand	mud (fine sand)		82001015				20.5
+WEWI06_1811.jpg	      0		774	93													Unconsolidated	Sand	mud (fine sand)		82001015				79.8
+WEWI06_1811.jpg	      0		1072	1442													Unconsolidated	Sand	mud (fine sand)		82001015				60.1
+WEWI06_1811.jpg	      0		629	538													Open Water								39.3
+WEWI06_1811.jpg	      0		1008	827													Unconsolidated	Sand	mud (fine sand)		82001015				22.3
+WEWI06_1811.jpg	      0		947	606													Unconsolidated	Sand	mud (fine sand)		82001015				32.8
+WEWI06_1811.jpg	      0		789	708													Unconsolidated	Sand	mud (fine sand)		82001015				19.0
+WEWI06_1811.jpg	      0		757	1258													Unconsolidated	Sand	mud (fine sand)		82001015				35.5
+WEWI06_1811.jpg	      0		846	763													Unconsolidated	Sand	mud (fine sand)		82001015				14.5
+WEWI06_1811.jpg	      0		650	949													Open Water								15.1
+WEWI06_1811.jpg	      0		959	1308													Unconsolidated	Sand	mud (fine sand)		82001015				43.4
+WEWI06_1811.jpg	      0		810	591													Unconsolidated	Sand	mud (fine sand)		82001015				30.6
+WEWI06_1811.jpg	      0		916	684													Unconsolidated	Sand	mud (fine sand)		82001015				24.5
+WEWI06_1811.jpg	      0		677	1493													Open Water								59.7
+WEWI06_1811.jpg	      0		800	90													Unconsolidated	Sand	mud (fine sand)		82001015				80.0
+WEWI06_1811.jpg	      0		579	1576													Open Water								70.1
+WEWI06_1811.jpg	      0		850	649													Unconsolidated	Sand	mud (fine sand)		82001015				25.5
+WEWI06_1811.jpg	      0		614	1897													Open Water								100.0
+WEWI06_1811.jpg	      0		578	1344													Open Water								48.7
+WEWI06_1811.jpg	      0		855	88													Unconsolidated	Sand	mud (fine sand)		82001015				80.4
+WEWI07_1811.jpg	      0		835	1736													Unknown								83.5
+WEWI07_1811.jpg	      0		858	1888													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+WEWI07_1811.jpg	      0		1031	903													Unconsolidated	Sand	mud (fine sand)		82001015				18.9
+WEWI07_1811.jpg	      0		926	564													Unconsolidated	Sand	mud (fine sand)		82001015				45.7
+WEWI07_1811.jpg	      0		1065	309													Unconsolidated	Sand	mud (fine sand)		82001015				76.2
+WEWI07_1811.jpg	      0		957	1332													Unconsolidated	Sand	mud (fine sand)		82001015				40.0
+WEWI07_1811.jpg	      0		720	147													Open Water								92.7
+WEWI07_1811.jpg	      0		966	406													Unconsolidated	Sand	mud (fine sand)		82001015				63.4
+WEWI07_1811.jpg	      0		733	697													Open Water								34.5
+WEWI07_1811.jpg	      0		685	1496													Open Water								60.7
+WEWI07_1811.jpg	      0		943	141													Unconsolidated	Sand	mud (fine sand)		82001015				92.0
+WEWI07_1811.jpg	      0		740	457													Open Water								59.0
+WEWI07_1811.jpg	      0		837	380													Unconsolidated	Sand	mud (fine sand)		82001015				65.7
+WEWI07_1811.jpg	      0		661	1765													Open Water								89.7
+WEWI07_1811.jpg	      0		1052	1354													Unconsolidated	Sand	mud (fine sand)		82001015				45.7
+WEWI07_1811.jpg	      0		626	1232													Unknown								39.2
+WEWI07_1811.jpg	      0		882	1388													Unconsolidated	Sand	mud (fine sand)		82001015				45.1
+WEWI07_1811.jpg	      0		939	1333													Unconsolidated	Sand	mud (fine sand)		82001015				39.7
+WEWI07_1811.jpg	      0		980	1089													Unconsolidated	Sand	mud (fine sand)		82001015				16.8
+WEWI07_1811.jpg	      0		1071	921													Unconsolidated	Sand	mud (fine sand)		82001015				22.4
+WEWI08_1811.jpg	      0		940	494													Unconsolidated	Sand	mud (fine sand)		82001015				56.5
+WEWI08_1811.jpg	      0		563	1634													Open Water								85.2
+WEWI08_1811.jpg	      0		1064	1414													Unconsolidated	Sand	mud (fine sand)		82001015				60.4
+WEWI08_1811.jpg	      0		917	808													Unconsolidated	Sand	mud (fine sand)		82001015				21.0
+WEWI08_1811.jpg	      0		828	409													Unconsolidated	Sand	mud (fine sand)		82001015				64.9
+WEWI08_1811.jpg	      0		548	1390													Open Water								60.2
+WEWI08_1811.jpg	      0		673	132													Open Water								99.1
+WEWI08_1811.jpg	      0		817	1649													Unconsolidated	Sand	mud (fine sand)		82001015				81.2
+WEWI08_1811.jpg	      0		759	1322													Unknown								43.3
+WEWI08_1811.jpg	      0		882	115													Unconsolidated	Sand	mud (fine sand)		82001015				99.8
+WEWI08_1811.jpg	      0		796	1809													Unconsolidated	Sand	mud (fine sand)		82001015				100.0
+WEWI08_1811.jpg	      0		589	498													Open Water								61.2
+WEWI08_1811.jpg	      0		1033	1162													Unconsolidated	Sand	mud (fine sand)		82001015				34.1
+WEWI08_1811.jpg	      0		909	409													Unconsolidated	Sand	mud (fine sand)		82001015				65.6
+WEWI08_1811.jpg	      0		1000	983													Unconsolidated	Sand	mud (fine sand)		82001015				20.8
+WEWI08_1811.jpg	      0		812	271													Unconsolidated	Sand	mud (fine sand)		82001015				81.2
+WEWI08_1811.jpg	      0		917	1403													Unconsolidated	Sand	mud (fine sand)		82001015				53.2
+WEWI08_1811.jpg	      0		955	910													Unconsolidated	Sand	mud (fine sand)		82001015				16.3
+WEWI08_1811.jpg	      0		755	999													Open Water								9.5
+WEWI08_1811.jpg	      0		749	1393													Open Water								51.8
