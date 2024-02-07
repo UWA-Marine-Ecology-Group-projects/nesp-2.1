@@ -6,6 +6,7 @@ library(ggnewscale)
 library(scales)
 library(viridis)
 library(patchwork)
+library(tidyterra)
 
 e <- ext(114.9, 115.8, -33.7,-33.2)
 
@@ -81,4 +82,41 @@ png(filename = "plots/aus-inset.png", height = 4, width = 5,
 inset.film
 dev.off()
 
+# Make australia wide sampling plan map
+e <- ext(112.5, 154.5, -44.5, -11.5)
 
+bathy <- rast("data/spatial/rasters/raw bathymetry/Australian_Bathymetry_and_Topography_2023_250m_MSL_cog.tif") %>%
+  clamp(upper = 0, values = F) 
+plot(bathy)
+
+topo <- rast("data/spatial/rasters/raw bathymetry/Australian_Bathymetry_and_Topography_2023_250m_MSL_cog.tif") %>%
+  clamp(lower = 0, values = F)
+plot(topo)
+
+dat <- st_read("data/mbh-design/National_Sampling_Master_WGS84.shp") %>%
+  slice_head(n = 5000)
+
+# hill <- rast("data/spatial/rasters/raw bathymetry/250m_australia_hillshade.tif") %>%
+#   crop(e)
+
+# pal_greys <- hcl.colors(1000, "Grays")
+
+p2 <- ggplot() +
+  # geom_spatraster(data = hill, fill = pal_greys, maxcell = Inf,
+  #                 alpha = 1) +
+  # new_scale_fill() +
+  geom_spatraster(data = bathy, show.legend = F, alpha = 1) +
+  scale_fill_gradientn(colours = c("#061442", "#2b63b5","#9dc9e1"),
+                       values = rescale(c(-6221, -120, 0)))  +
+  new_scale_fill() +
+  geom_spatraster(data = topo, show.legend = F) +
+  scale_fill_hypso_tint_c(palette = "dem_poster",
+                          alpha = 1,
+                          na.value = "transparent") +
+  geom_sf(data = dat, size = 0.3, stroke = 0.3, shape = 20) +
+  coord_sf(xlim = c(113, 154), 
+           ylim = c(-44, -12))
+png(filename = "plots/national-sampling-plan.png", units = "in", res = 900,
+    height = 6, width = 7)
+p2
+dev.off()
