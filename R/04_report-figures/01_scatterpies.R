@@ -10,8 +10,8 @@ habi <- read.csv("data/tidy/NESP-2.1_broad-habitat.csv") %>%
   dplyr::mutate("Sessile invertebrates" = broad.ascidians + broad.bryozoa + broad.octocoral.black + 
                   broad.sponges + broad.hydroids + broad.crinoids + broad.invertebrate.complex +
                   broad.stony.corals + broad.true.anemones + broad.zoanthids) %>%
-  dplyr::rename(Sand = broad.unconsolidated,
-                Rock = broad.consolidated,
+  dplyr::rename('Shelf unvegatated sediments' = broad.unconsolidated,
+                "Bare rocky reef" = broad.consolidated,
                 Seagrass = broad.seagrasses.all,
                 Macroalgae = broad.macroalgae) %>%
   dplyr::mutate(amp = case_when(location %in% "Apollo CMR" ~ "Apollo",
@@ -32,13 +32,14 @@ habi <- read.csv("data/tidy/NESP-2.1_broad-habitat.csv") %>%
                                 location %in% "Investigator MBH" ~ "Investigator",
                                 location %in% c("Freycinet AMP", "Freycinet North", "Freycinet Inshore") ~ "Freycinet")) %>%
   dplyr::mutate(amp = if_else(campaignid %in% "2022-11_Investigator_stereo-BRUVs", "Investigator", amp)) %>%
+  dplyr::mutate(amp = if_else(campaignid %in% "2022-12_Bremer_stereo-BOSS", "Bremer", amp)) %>%
   glimpse()
 
 hab_fills <- scale_fill_manual(values = c("Sessile invertebrates" = "plum",
                                           "Macroalgae" = "darkgoldenrod4",
                                           "Seagrass" = "forestgreen",
-                                          "Rock" = "grey40",
-                                          "Sand" = "wheat"), 
+                                          "Bare rocky reef" = "grey40",
+                                          "Shelf unvegatated sediments" = "wheat"), 
                                name = "Habitat")
 
 # Load necessary spatial files
@@ -111,12 +112,54 @@ ggplot() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
              fill = "white", colour = "white", alpha = 0.1, size = 7, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
                   colour = NA, pie_scale = 1) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
   coord_sf(xlim = c(143.4725, 143.65), 
            ylim = c(-39, -38.85), 
+           crs = 4326) +
+  theme_minimal() +
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank())
+dev.off()
+
+# BREMER
+habitat_park <- dplyr::filter(habi, amp %in% "Bremer")
+
+e <- ext(119.487, 120.134, -34.8, -34.042)
+
+hillshadec <- terra::crop(hill, e)
+topoc <- terra::crop(topo, e)
+bathyc <- terra::crop(bathy, e)
+ausc <- st_crop(aus, e)
+
+png("plots/report/bremer_scatterpie.png", height = 6.5, width = 9,
+    res = 900, units = "in")
+ggplot() +
+  geom_spatraster(data = hillshadec, alpha = 1, show.legend = F, maxcell = Inf) +
+  scale_fill_gradientn(colors = pal_greys, na.value = NA) +
+  new_scale_fill() +
+  geom_spatraster(data = bathyc, maxcell = Inf, alpha = 0.6) +
+  scale_fill_gradientn(colours = c("#061442","#014091", "#2b63b5","#6794d6"),
+                       values = rescale(c(-100, -40,-20, 0)),
+                       na.value = "#A0C3D8", name = "Depth")  +
+  new_scale_fill() +
+  geom_sf(data = ausc) +
+  geom_sf(data = marine.parks, aes(fill = ZONENAME), alpha = 0.3, colour = NA) +
+  scale_fill_manual(values = c("Special Purpose Zone (Mining Exclusion)" = "#368ac1",
+                    "National Park Zone" = "#7bbc63"), 
+                    name = "Australian Marine Parks") +
+  new_scale_fill() +
+  geom_point(data = habitat_park, aes(x = longitude, y = latitude),
+             fill = "white", colour = "white", alpha = 0.1, size = 5, shape = 16) +
+  geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
+                  colour = NA, pie_scale = 1.1) +
+  hab_fills +
+  labs(x = "Longitude", y = "Latitude") +
+  coord_sf(xlim = c(119.55, 120.1), 
+           ylim = c(-34.680, -34.1), 
            crs = 4326) +
   theme_minimal() +
   theme(panel.grid.major = element_blank(), 
@@ -152,7 +195,7 @@ ggplot() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
              fill = "white", colour = "white", alpha = 0.1, size = 4, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
+                  cols = cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
                   colour = NA, pie_scale = 0.45) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
@@ -194,7 +237,7 @@ ggplot() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
              fill = "white", colour = "white", alpha = 0.1, size = 4, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
                   colour = NA, pie_scale = 0.05) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
@@ -237,7 +280,7 @@ ggplot() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
              fill = "white", colour = "white", alpha = 0.1, size = 3.5, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
                   colour = NA, pie_scale = 0.8) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
@@ -279,7 +322,7 @@ ggplot() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
              fill = "white", colour = "white", alpha = 0.1, size = 4, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
                   colour = NA, pie_scale = 1.7) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
@@ -323,7 +366,7 @@ ggplot() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
              fill = "white", colour = "white", alpha = 0.1, size = 4, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
                   colour = NA, pie_scale = 0.5) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
@@ -364,10 +407,10 @@ ggplot() +
                     name = "Australian Marine Parks") +
   new_scale_fill() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
-             fill = "white", colour = "white", alpha = 0.1, size = 5, shape = 16) +
+             fill = "white", colour = "white", alpha = 0.1, size = 4, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
-                  colour = NA, pie_scale = 0.6) +
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
+                  colour = NA, pie_scale = 0.45) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
   coord_sf(xlim = c(146.15, 146.51), 
@@ -408,7 +451,7 @@ ggplot() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
              fill = "white", colour = "white", alpha = 0.1, size = 3.5, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
                   colour = NA, pie_scale = 0.45) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
@@ -450,7 +493,7 @@ ggplot() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
              fill = "white", colour = "white", alpha = 0.1, size = 4.5, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
                   colour = NA, pie_scale = 1) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
@@ -491,9 +534,9 @@ ggplot() +
                     name = "Australian Marine Parks") +
   new_scale_fill() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
-             fill = "white", colour = "white", alpha = 0.1, size = 6, shape = 16) +
+             fill = "white", colour = "white", alpha = 0.1, size = 8, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
                   colour = NA, pie_scale = 1.5) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
@@ -537,8 +580,8 @@ ggplot() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
              fill = "white", colour = "white", alpha = 0.1, size = 6.5, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
-                  colour = NA, pie_scale = 1.3) +
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
+                  colour = NA, pie_scale = 1.1) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
   coord_sf(xlim = c(120.75, 121.25), 
@@ -578,10 +621,10 @@ ggplot() +
                     name = "Australian Marine Parks") +
   new_scale_fill() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
-             fill = "white", colour = "white", alpha = 0.1, size = 5, shape = 16) +
+             fill = "white", colour = "white", alpha = 0.1, size = 4, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
-                  colour = NA, pie_scale = 1) +
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
+                  colour = NA, pie_scale = 0.65) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
   coord_sf(xlim = c(123.35, 124.4), 
@@ -620,10 +663,10 @@ ggplot() +
                     name = "Australian Marine Parks") +
   new_scale_fill() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
-             fill = "white", colour = "white", alpha = 0.1, size = 5, shape = 16) +
+             fill = "white", colour = "white", alpha = 0.1, size = 4, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
-                  colour = NA, pie_scale = 1.5) +
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
+                  colour = NA, pie_scale = 1.2) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
   coord_sf(xlim = c(144.1, 144.7), 
@@ -662,10 +705,10 @@ ggplot() +
                     name = "Australian Marine Parks") +
   new_scale_fill() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
-             fill = "white", colour = "white", alpha = 0.1, size = 5, shape = 16) +
+             fill = "white", colour = "white", alpha = 0.1, size = 4, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
-                  colour = NA, pie_scale = 0.7) +
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
+                  colour = NA, pie_scale = 0.55) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
   coord_sf(xlim = c(143.18, 143.9), 
@@ -706,10 +749,10 @@ ggplot() +
                     name = "Australian Marine Parks") +
   new_scale_fill() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
-             fill = "white", colour = "white", alpha = 0.1, size = 4, shape = 16) +
+             fill = "white", colour = "white", alpha = 0.1, size = 3, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
-                  colour = NA, pie_scale = 0.6) +
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
+                  colour = NA, pie_scale = 0.4) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
   coord_sf(xlim = c(136.7, 138.6), 
@@ -730,7 +773,7 @@ topoc <- terra::crop(topo, e)
 bathyc <- terra::crop(bathy, e)
 ausc <- st_crop(aus, e)
 
-png("plots/report/freycinet_scatterpie.png", height = 8, width = 9,
+png("plots/report/freycinet_scatterpie.png", height = 11, width = 9,
     res = 900, units = "in")
 ggplot() +
   geom_spatraster(data = hillshadec, alpha = 1, show.legend = F, maxcell = Inf) +
@@ -750,10 +793,10 @@ ggplot() +
                     name = "Australian Marine Parks") +
   new_scale_fill() +
   geom_point(data = habitat_park, aes(x = longitude, y = latitude),
-             fill = "white", colour = "white", alpha = 0.1, size = 2, shape = 16) +
+             fill = "white", colour = "white", alpha = 0.1, size = 5, shape = 16) +
   geom_scatterpie(data = habitat_park, aes(x = longitude, y = latitude),
-                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Rock", "Sand"),
-                  colour = NA, pie_scale = 1.8) +
+                  cols = c("Sessile invertebrates", "Macroalgae", "Seagrass", "Bare rocky reef", "Shelf unvegatated sediments"),
+                  colour = NA, pie_scale = 1) +
   hab_fills +
   labs(x = "Longitude", y = "Latitude") +
   coord_sf(xlim = c(148.3, 148.7), 
