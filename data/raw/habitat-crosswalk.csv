@@ -1,0 +1,23 @@
+﻿broad,level_1,level_2,level_3,level_4,level_5,level_6,level_7,level_8,family,genus,species
+broad.ascidians,Biota,Ascidians,,,,,,,,,
+broad.bryozoa,Biota,Bryozoa,,,,,,,,,
+broad.macroalgae,Biota,Macroalgae,,,,,,,,,
+broad.octocoral.black,Biota,Cnidaria,Corals,Black & Octocorals,,,,,,,
+broad.sponges,Biota,Sponges,,,,,,,,,
+broad.unconsolidated,Physical,Substrate,Unconsolidated (soft),,,,,,,,
+broad.consolidated,Physical,Substrate,Consolidated (hard),,,,,,,,
+broad.hydroids,Biota,Cnidaria,Hydroids,,,,,,,,
+broad.crinoids,Biota,Echinoderms,Feather stars,,,,,,,,
+broad.invertebrate.complex,Biota,Sessile invertebrates,,,,,,,,,
+broad.seagrasses,Biota,Seagrasses,,,,,,,,,
+broad.stony.corals,Biota,Cnidaria,Corals,Stony corals,,,,,,,
+broad.true.anemones,Biota,Cnidaria,True anemones,,,,,,,,
+broad.seagrasses_amphibolis.sp.,Biota,Seagrasses,Strap-like leaves,,,,,,Cymodoceaceae,Amphibolis,spp
+broad.seagrasses_posidonia.sp.,Biota,Seagrasses,Strap-like leaves,,,,,,Posidoniaceae,Posidonia,spp
+broad.seagrasses_halophila.sp.,Biota,Seagrasses,Elliptical leaves,,,,,,Hydrocharitaceae,Halophila,spp
+broad.seagrasses_rupia.sp.,Biota,Seagrasses,Strap-like leaves,,,,,,Ruppiaceae,Ruppia,spp
+broad.seagrasses_zostera.sp.,Biota,Seagrasses,Strap-like leaves,,,,,,Zosteraceae,Zostera,spp
+broad.echinodermata,Biota,Echinoderms,,,,,,,,,
+broad.sea.stars,Biota,Echinoderms,Sea stars,,,,,,,,
+broad.zoanthids,Biota,Cnidaria,Colonial anemones,Zoanthids,,,,,,,
+broad.seagrasses_thalassodendron.sp.,Biota,Seagrasses,Strap-like leaves,,,,,,Cymodoceaceae,Thalassodendron,spp
